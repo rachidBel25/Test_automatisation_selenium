@@ -9,3 +9,5 @@ Test connexion verification des assertions, titre et imprimer test passant
 6.utilisation des captures d'écran et faire des commentaires
 7.imprimer test passant 
 
+Test_pom_01 Utilsation de pytest
+
