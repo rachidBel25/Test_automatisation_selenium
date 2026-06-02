@@ -11,3 +11,5 @@ Test connexion verification des assertions, titre et imprimer test passant
 
 Test_pom_01 Utilsation de pytest
 
+Utilisation de fichier jenkinsfile pour lancer un pipeline et lancer le Test_03_setup.py
+
