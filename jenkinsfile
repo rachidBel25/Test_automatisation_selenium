@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Lancement des tests') {
+            steps {
+                echo 'Début de l execution du script Python...'
+                // Assurez-vous que python3 est bien installé sur votre serveur Jenkins
+                sh 'python3 Test_03_setup.py'
+            }
+        }
+    }
+}
