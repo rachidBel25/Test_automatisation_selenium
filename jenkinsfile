@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
     
@@ -5,8 +6,8 @@ pipeline {
         stage('Lancement des tests') {
             steps {
                 echo 'Début de l execution du script Python...'
-                // Assurez-vous que python3 est bien installé sur votre serveur Jenkins
-                sh 'python3 Test_03_setup.py'
+                // On utilise le chemin complet avec des doubles antislashs pour Windows
+                bat 'C:\\Users\\Thamazgha\\AppData\\Local\\Programs\\Python\\Python314\\python.exe Test_03_setup.py'
             }
         }
     }
