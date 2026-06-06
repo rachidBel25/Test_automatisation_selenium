@@ -7,7 +7,7 @@ pipeline {
             steps {
                 echo 'Début de l execution du script Python...'
                 // On utilise le chemin complet avec des doubles antislashs pour Windows
-                bat 'C:\\Users\\Thamazgha\\AppData\\Local\\Programs\\Python\\Python314\\python.exe Test_03_setup.py'
+                bat 'python Test_03_setup.py'
             }
         }
     }
